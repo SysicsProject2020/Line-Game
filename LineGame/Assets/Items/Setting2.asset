@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   time: 1
-  InitialColor: {r: 0, g: 0.3584906, b: 0.032870796, a: 1}
-  index: 0
+  InitialColor: {fileID: 2100000, guid: bf0252a8aaa41c9419147ca6a4ee7834, type: 2}
+  index: 1

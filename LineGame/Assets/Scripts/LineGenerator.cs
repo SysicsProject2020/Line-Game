@@ -33,7 +33,7 @@ public class LineGenerator : MonoBehaviour
     {
         RandomAssets();
         GameObject a = Instantiate(Obj, starPos.position, starPos.rotation);
-        a.GetComponent<LineController>().GetInfo(AssetsLines[randomIndex].speed, EndPos, AssetsLines[randomIndex].InitialColor);
+        a.GetComponent<LineController>().GetInfo(AssetsLines[randomIndex].speed, EndPos, AssetsLines[randomIndex].InitialColor, AssetsLines[randomIndex].index);
         StartCoroutine(CreateLine(AssetsLines[randomIndex].time));
       
 

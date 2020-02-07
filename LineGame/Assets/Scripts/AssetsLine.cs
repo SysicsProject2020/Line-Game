@@ -7,6 +7,7 @@ public class AssetsLine : ScriptableObject
 {
     public float speed;
     public float time;
-    public Color InitialColor;
+    public Material InitialColor;
     public int index;
+ 
 }
