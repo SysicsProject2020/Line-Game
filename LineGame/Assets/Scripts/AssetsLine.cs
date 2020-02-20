@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(menuName ="LineSetting/Setting")]
 public class AssetsLine : ScriptableObject
@@ -9,5 +7,6 @@ public class AssetsLine : ScriptableObject
     public float time;
     public Material InitialColor;
     public int index;
+
  
 }

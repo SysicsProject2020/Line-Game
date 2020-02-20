@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SplashLeft : MonoBehaviour
 {
@@ -10,7 +8,7 @@ public class SplashLeft : MonoBehaviour
     public int index;
     public float direction;
 
-
+    
     public void Update()
     {
         if (!isTrig)

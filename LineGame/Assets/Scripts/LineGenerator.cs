@@ -17,7 +17,7 @@ public class LineGenerator : MonoBehaviour
 
         Init();
 
-       // transform.position += new Vector3(0, speed * Time.deltaTime, 0);
+       
 
     }
     void RandomAssets()
@@ -32,8 +32,11 @@ public class LineGenerator : MonoBehaviour
     private void Init()
     {
         RandomAssets();
-        GameObject a = Instantiate(Obj, starPos.position, starPos.rotation);
+
+         GameObject a = Instantiate(Obj, starPos.position, starPos.rotation);
         a.GetComponent<LineController>().GetInfo(AssetsLines[randomIndex].speed, EndPos, AssetsLines[randomIndex].InitialColor, AssetsLines[randomIndex].index);
+
+        
         StartCoroutine(CreateLine(AssetsLines[randomIndex].time));
       
 
