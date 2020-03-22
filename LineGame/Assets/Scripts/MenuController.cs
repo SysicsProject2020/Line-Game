@@ -16,4 +16,10 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(1);
 
     }
+    public void Setting()
+    {
+        SceneManager.LoadScene(3);
+
+    }
+
 }
