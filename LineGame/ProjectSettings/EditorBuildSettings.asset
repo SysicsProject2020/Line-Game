@@ -14,7 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/line game.unity
     guid: 9c4a2d91e84083e4c9cb33ba51903a27
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Setting.unity
-    guid: 832d42749e3397a49a2c80342ad48287
+    path: Assets/Scenes/RainBow.unity
+    guid: 161963285a6333e46bb284d56d719c61
+  - enabled: 1
+    path: Assets/Scenes/Timer.unity
+    guid: a32f9b504bc35bb489328585e23f8036
+  - enabled: 1
+    path: Assets/Scenes/SpeedTest.unity
+    guid: bbfae21b2f6ca774f85250b7468a783c
   m_configObjects: {}

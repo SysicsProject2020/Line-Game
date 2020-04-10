@@ -35,9 +35,9 @@ public class LineController : MonoBehaviour
     void Move()
     {
 
-        // rb.drag = speed;
+        
 
-        //rb.velocity = (transform.position - EndPosition.position) * Time.deltaTime;
+       
         LeanTween.moveY(gameObject, EndPosition.position.y, speed);
         
          rb.transform.localScale = new Vector3(2.5f, Random.Range(5f, 20f),2.5f ) ;
