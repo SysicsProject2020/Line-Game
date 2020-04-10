@@ -79,6 +79,21 @@ public class LineController : MonoBehaviour
                         rb.drag = -2;
                         ScoreCounter.instance.PlayerScoreAdd();
                         break;
+
+                    case 2:
+
+                        rend.sharedMaterial = mat[0];
+                        rb.drag = -2;
+                        ScoreCounter.instance.PlayerScoreAdd();
+                        break;
+                    case 3:
+
+                        rend.sharedMaterial = mat[0];
+
+                        rb.drag = -2;
+                        ScoreCounter.instance.PlayerScoreAdd();
+                        break;
+
                     default:
                         break;
                 }

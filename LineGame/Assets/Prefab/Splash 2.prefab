@@ -134,5 +134,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedSplash: 20
   rb: {fileID: 8041336479392006626}
-  index: 0
+  index: 2
   direction: 1
