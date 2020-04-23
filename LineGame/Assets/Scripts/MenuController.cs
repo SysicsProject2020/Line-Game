@@ -30,29 +30,7 @@ public class MenuController : MonoBehaviour
         }
 
     }
-   /* public void Challenge()
-    {
-        if (PanelChallenge != null)
-        {
-            PanelChallenge.SetActive(true);
-        }
-
-    }
-    public void RainBow()
-    {
-        SceneManager.LoadScene(3);
-
-    }
-    public void Timer()
-    {
-        SceneManager.LoadScene(4);
-
-    }
-    public void Speed()
-    {
-        SceneManager.LoadScene(5);
-
-    }*/
+   
 
     public void OndropChangevalue(Dropdown change)
     {
