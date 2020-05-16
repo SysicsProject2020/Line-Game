@@ -37,4 +37,10 @@ public class MenuController : MonoBehaviour
         mode = change.value;
 
     }
+    public void BackScene()
+    {
+        SceneManager.LoadScene(0);
+
+    }
+
 }
