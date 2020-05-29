@@ -3,22 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class MenuController : MonoBehaviour
 
-{
+public class MenuController : MonoBehaviour
+{ 
     public GameObject PanelSetting;
-    public GameObject PanelChallenge;
+    public GameObject PanelShop;
+    public GameObject PanelLevel;
     int mode = 0;
-    // Start is called before the first frame update
-    public void startGame()
+      
+    public void StartGame()
     {
+
+       
         SceneManager.LoadScene(mode+1);
+        AudioManager.playSound("ClickButton");
+
 
     }
     public void BackMenu()
     {
         PanelSetting.SetActive(false);
-        PanelChallenge.SetActive(false);
+        AudioManager.playSound("ClickButton");
+
 
 
     }
@@ -27,10 +33,20 @@ public class MenuController : MonoBehaviour
         if(PanelSetting!=null)
         {
             PanelSetting.SetActive(true);
+            AudioManager.playSound("ClickButton");
         }
 
     }
-   
+    public void Shop()
+    {
+        if (PanelShop != null)
+        {
+            PanelShop.SetActive(true);
+            AudioManager.playSound("ClickButton");
+        }
+
+    }
+
 
     public void OndropChangevalue(Dropdown change)
     {
@@ -40,7 +56,43 @@ public class MenuController : MonoBehaviour
     public void BackScene()
     {
         SceneManager.LoadScene(0);
+        AudioManager.playSound("ClickButton");
 
     }
+    public void RainbowGame()
+    {
+        SceneManager.LoadScene(2);
+        AudioManager.playSound("ClickButton");
+
+    }
+   
+    public void TimerGame()
+    {
+        SceneManager.LoadScene(3);
+        AudioManager.playSound("ClickButton");
+
+    }
+    public void SpeedGame()
+    {
+        SceneManager.LoadScene(4);
+        AudioManager.playSound("ClickButton");
+
+    }
+
+
+    public void NextLevelButton()
+    {
+        if (PanelLevel != null)
+        {
+            PanelLevel.SetActive(false);
+            AudioManager.playSound("ClickButton");
+        }
+    }
+    public void ExitButton()
+    {
+      SceneManager.LoadScene(5);
+      AudioManager.playSound("ClickButton");
+    }
+    
 
 }

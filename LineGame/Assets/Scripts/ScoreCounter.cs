@@ -9,6 +9,8 @@ public class ScoreCounter : MonoBehaviour
     public Text PlayerScoreText;
     public static ScoreCounter instance;
     public int PlayerScore;
+    public  GameObject PanelLevel;
+  
 
 
 
@@ -23,6 +25,11 @@ public class ScoreCounter : MonoBehaviour
     {
         PlayerScore += 1;
         PlayerScoreText.text = PlayerScore.ToString();
+        if(PlayerScore>=3 )
+        {
+             PanelLevel.SetActive(true); 
+        }
+
        
     }
 }
