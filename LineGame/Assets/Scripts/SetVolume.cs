@@ -6,7 +6,7 @@ public class SetVolume : MonoBehaviour
 {
     public AudioMixer mixer;
     public AudioSource BackGroundAudio;
-    public AudioSource ButtonAudio;
+   
 
 
 

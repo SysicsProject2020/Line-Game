@@ -9,18 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 38c08e5e0b6674a44bd5b899c299c712
   - enabled: 1
-    path: Assets/Scenes/line game.unity
+    path: Assets/Scenes/EndlessChallenge.unity
     guid: 9c4a2d91e84083e4c9cb33ba51903a27
   - enabled: 1
-    path: Assets/Scenes/RainBow.unity
+    path: Assets/Scenes/RainBowLevel1.unity
     guid: 161963285a6333e46bb284d56d719c61
   - enabled: 1
-    path: Assets/Scenes/Timer.unity
+    path: Assets/Scenes/TimerLevel1.unity
     guid: a32f9b504bc35bb489328585e23f8036
   - enabled: 1
-    path: Assets/Scenes/SpeedTest.unity
+    path: Assets/Scenes/SpeedLevel1.unity
     guid: bbfae21b2f6ca774f85250b7468a783c
   - enabled: 1
     path: Assets/Scenes/Bye.unity
     guid: 67249ca87a73d22429855e38106f3814
+  - enabled: 1
+    path: Assets/Scenes/TimerLevel2.unity
+    guid: dc4723d84d48b7e4cb6096140044939f
+  - enabled: 1
+    path: Assets/Scenes/SpeedLevel2.unity
+    guid: ef2b9de6cf6c7c643a76cf7cf2ca7740
+  - enabled: 1
+    path: Assets/Scenes/RainBowLevel2.unity
+    guid: a54a8d76d87778540a5cc5d416fc59e6
   m_configObjects: {}

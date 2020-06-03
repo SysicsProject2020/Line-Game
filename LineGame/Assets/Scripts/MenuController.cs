@@ -8,7 +8,7 @@ public class MenuController : MonoBehaviour
 { 
     public GameObject PanelSetting;
     public GameObject PanelShop;
-    public GameObject PanelLevel;
+    public GameObject PanelPause;
     int mode = 0;
       
     public void StartGame()
@@ -80,19 +80,31 @@ public class MenuController : MonoBehaviour
     }
 
 
-    public void NextLevelButton()
-    {
-        if (PanelLevel != null)
-        {
-            PanelLevel.SetActive(false);
-            AudioManager.playSound("ClickButton");
-        }
-    }
+    
     public void ExitButton()
     {
       SceneManager.LoadScene(5);
       AudioManager.playSound("ClickButton");
     }
-    
+    public void Pause()
+    {
+        if (PanelPause != null)
+        {
+            Time.timeScale = 0f;
+            
+            PanelPause.SetActive(true);
+            AudioManager.playSound("ClickButton");
+        }
+
+    }
+    public void BackMenuFromPause()
+    {
+        PanelPause.SetActive(false);
+        Time.timeScale = 1f;
+        AudioManager.playSound("ClickButton");
+
+
+
+    }
 
 }
