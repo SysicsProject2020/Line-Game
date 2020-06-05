@@ -9,6 +9,7 @@ public class MenuController : MonoBehaviour
     public GameObject PanelSetting;
     public GameObject PanelShop;
     public GameObject PanelPause;
+    public GameObject PanelGameOver;
     int mode = 0;
       
     public void StartGame()
@@ -56,6 +57,7 @@ public class MenuController : MonoBehaviour
     public void BackScene()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
         AudioManager.playSound("ClickButton");
 
     }
@@ -83,7 +85,7 @@ public class MenuController : MonoBehaviour
     
     public void ExitButton()
     {
-      SceneManager.LoadScene(5);
+        Application.Quit();
       AudioManager.playSound("ClickButton");
     }
     public void Pause()
@@ -96,6 +98,8 @@ public class MenuController : MonoBehaviour
             AudioManager.playSound("ClickButton");
         }
 
+
+        
     }
     public void BackMenuFromPause()
     {
@@ -106,5 +110,6 @@ public class MenuController : MonoBehaviour
 
 
     }
+
 
 }
