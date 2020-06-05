@@ -1203,6 +1203,10 @@ MonoBehaviour:
   direction: -1
   yadhreb: {fileID: 21300000, guid: 7a6711abd93df7643bb7e19edfe16f84, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - green
+  confidence: 2
+  word: 
 --- !u!58 &788894947
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1481,6 +1485,10 @@ MonoBehaviour:
   direction: 1
   yadhreb: {fileID: 21300000, guid: 7a6711abd93df7643bb7e19edfe16f84, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - yellow
+  confidence: 2
+  word: 
 --- !u!212 &865839172
 SpriteRenderer:
   m_ObjectHideFlags: 0

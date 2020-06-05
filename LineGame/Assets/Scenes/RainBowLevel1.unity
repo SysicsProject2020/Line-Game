@@ -1141,6 +1141,10 @@ MonoBehaviour:
   direction: -1
   yadhreb: {fileID: 21300000, guid: 00004bf6717dda94ab3a2b13913012e5, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - blue
+  confidence: 2
+  word: 
 --- !u!58 &406587470
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1729,6 +1733,10 @@ MonoBehaviour:
   direction: -1
   yadhreb: {fileID: 21300000, guid: 00004bf6717dda94ab3a2b13913012e5, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - green
+  confidence: 2
+  word: 
 --- !u!58 &588941955
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2191,6 +2199,10 @@ MonoBehaviour:
   direction: 1
   yadhreb: {fileID: 21300000, guid: 00004bf6717dda94ab3a2b13913012e5, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - yellow
+  confidence: 2
+  word: 
 --- !u!212 &753721421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2692,6 +2704,10 @@ MonoBehaviour:
   direction: 1
   yadhreb: {fileID: 21300000, guid: 00004bf6717dda94ab3a2b13913012e5, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - red
+  confidence: 2
+  word: 
 --- !u!212 &918877219
 SpriteRenderer:
   m_ObjectHideFlags: 0

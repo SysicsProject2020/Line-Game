@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3809,6 +3809,10 @@ MonoBehaviour:
   direction: -1
   yadhreb: {fileID: 21300000, guid: 00004bf6717dda94ab3a2b13913012e5, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - blue
+  confidence: 2
+  word: 
 --- !u!58 &1394444972
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4292,6 +4296,10 @@ MonoBehaviour:
   direction: 1
   yadhreb: {fileID: 21300000, guid: 00004bf6717dda94ab3a2b13913012e5, type: 3}
   rest: {fileID: 0}
+  keywords:
+  - pink
+  confidence: 2
+  word: 
 --- !u!212 &1626266936
 SpriteRenderer:
   m_ObjectHideFlags: 0
