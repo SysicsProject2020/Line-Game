@@ -10,28 +10,24 @@ public class ScoreCounter : MonoBehaviour
     public static ScoreCounter instance;
     public int PlayerScore;
     public int MaxScore;
-    public  GameObject PanelLevel;
-  
-
-
-
+    public GameObject PanelLevel;
+   
     void Start()
     {
         instance = this;
         PlayerScore = 0;
     }
 
-
     public void PlayerScoreAdd()
     {
         PlayerScore += 1;
         PlayerScoreText.text = PlayerScore.ToString();
-        if(PlayerScore>=MaxScore)
+        if (PlayerScore >= MaxScore)
         {
-             PanelLevel.SetActive(true); 
+            Time.timeScale = 0f;
+            PanelLevel.SetActive(true);
+            GetComponent<Animation>().Play("PanelSetting");
+            AudioManager.playSound("WinEffect");
         }
-
-       
     }
 }
-

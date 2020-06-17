@@ -25,6 +25,7 @@ public class LevelDegree : MonoBehaviour
     {
         if (PanelLevel != null)
         {
+            Time.timeScale = 1f;
             SceneManager.LoadScene(BuildIndex);
             AudioManager.playSound("ClickButton");
         }

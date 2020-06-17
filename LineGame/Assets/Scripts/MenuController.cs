@@ -11,14 +11,14 @@ public class MenuController : MonoBehaviour
     public GameObject PanelPause;
     public GameObject PanelGameOver;
     int mode = 0;
-      
+    
+
+
+
     public void StartGame()
     {
-
-       
         SceneManager.LoadScene(mode+1);
         AudioManager.playSound("ClickButton");
-
 
     }
     public void BackMenu()
@@ -34,7 +34,8 @@ public class MenuController : MonoBehaviour
         if(PanelSetting!=null)
         {
             PanelSetting.SetActive(true);
-            AudioManager.playSound("ClickButton");
+            AudioManager.playSound("ClickButton"); 
+            GetComponent<Animation>().Play("PanelSetting");
         }
 
     }
@@ -44,6 +45,8 @@ public class MenuController : MonoBehaviour
         {
             PanelShop.SetActive(true);
             AudioManager.playSound("ClickButton");
+            GetComponent<Animation>().Play("PanelSetting");
+
         }
 
     }
@@ -72,6 +75,7 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene(3);
         AudioManager.playSound("ClickButton");
+        GetComponent<Animation>().Play("CliqueAnimation");
 
     }
     public void SpeedGame()
@@ -96,6 +100,9 @@ public class MenuController : MonoBehaviour
             
             PanelPause.SetActive(true);
             AudioManager.playSound("ClickButton");
+            GetComponent<Animation>().Play("PanelSetting");
+
+
         }
 
 
@@ -104,6 +111,17 @@ public class MenuController : MonoBehaviour
     public void BackMenuFromPause()
     {
         PanelPause.SetActive(false);
+        Time.timeScale = 1f;
+        AudioManager.playSound("ClickButton");
+
+
+
+
+    }
+
+    public void BackMenuFromGameOver()
+    {
+        PanelGameOver.SetActive(false);
         Time.timeScale = 1f;
         AudioManager.playSound("ClickButton");
 

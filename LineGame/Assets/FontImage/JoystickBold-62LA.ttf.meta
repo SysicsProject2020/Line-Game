@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 5c82846bcda27c34fbfef0624fbac8ea
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Joystick
+  fontNames:
+  - Joystick
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 57adca5aed5a7f247a22ef3f6b5ba255, type: 3}
+  - {fileID: 12800000, guid: 7b88aa1fd451bc84aaa929b543231677, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -35,7 +35,7 @@ public class spawner1 : MonoBehaviour
         if (word == keywords[0]||keywords[0].Contains(word)||word.Contains(keywords[0]))
         {
             SpawnerSplash();
-            AudioManager.playSound("ClickButton");
+            AudioManager.playSound("shoot");
             word = "";
         }
        // results.text = "You said: <b>" + word + "</b>";
@@ -56,8 +56,8 @@ public class spawner1 : MonoBehaviour
     private void OnMouseUp()
     {
         SpawnerSplash();
-        AudioManager.playSound("ClickButton");
-        
+        AudioManager.playSound("shoot");
+
         spawner.gameObject.GetComponent<SpriteRenderer>().sprite = rest;
         
 
@@ -67,13 +67,5 @@ public class spawner1 : MonoBehaviour
         spawner.gameObject.GetComponent<SpriteRenderer>().sprite = yadhreb ;
 
     }
-
-
-
-
-
-
-
-
 
 }

@@ -6,8 +6,6 @@ using UnityEngine.Windows.Speech;
 using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
-    
-
     public static MenuManager _instance;
     public static MenuManager Instance { 
         get

@@ -499,6 +499,18 @@ MonoBehaviour:
   content: {fileID: 5466052051332103068}
   ScoreText: {fileID: 5466052050704479015}
   coincount: 3000
+  keywords:
+  - shop
+  - setting
+  - timer
+  - speed
+  - endless
+  - rainbow
+  - return
+  confidence: 1
+  speed: 1
+  ShopPanel: {fileID: 0}
+  settingPanel: {fileID: 0}
 --- !u!1 &5466052051044457424
 GameObject:
   m_ObjectHideFlags: 0
